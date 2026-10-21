@@ -1,0 +1,61 @@
+/* ================================================================
+   UrbanPick – design tokens (updated: truer black + brighter gold)
+   ================================================================ */
+
+:root {
+  /* ── Dark surfaces – true black ────────────────────────────── */
+  --ink-900: #000000;
+  --ink-800: #0b0b0c;
+  --ink-700: #141415;
+  --ink-600: #1c1c1e;
+  --ink-500: #26262a;
+
+  /* ── Borders on dark ────────────────────────────────────────── */
+  --border-dark: #26262a;
+
+  /* ── Accent – brighter gold ─────────────────────────────────── */
+  --champagne: #e9cc8f;
+  --champagne-hover: #f5dea8;
+  --champagne-deep: #b89a4a;
+
+  /* ── Light surfaces (unchanged) ────────────────────────────── */
+  --paper: #f6f4f0;
+  --tile: #ece8e0;
+  --card: #ffffff;
+
+  /* ── Text ──────────────────────────────────────────────────── */
+  --text: #17171a;
+  --text-muted: #66625b;
+  --line: #e3dfd6;
+  --on-dark: #ffffff;
+  --on-dark-secondary: #c4c4c8;
+  --on-dark-muted: #c4c4c8;
+
+  /* ── Price verdict (semantic) ──────────────────────────────── */
+  --verdict-great: #3f7d5b;
+  --verdict-great-bg: #edf7f2;
+  --verdict-good: #8a7545;
+  --verdict-good-bg: #f6f3ea;
+  --verdict-wait: #a5523f;
+  --verdict-wait-bg: #fdf2ef;
+  --verdict-fair: #66625b;
+  --verdict-fair-bg: #f6f4f0;
+
+  /* ── Radii ─────────────────────────────────────────────────── */
+  --r-sm: 8px;
+  --r-md: 16px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+  --r-pill: 9999px;
+
+  /* ── Motion ────────────────────────────────────────────────── */
+  --ease-out: cubic-bezier(0.22, 0.1, 0.36, 1);
+  --dur-fast: 150ms;
+  --dur-mid: 200ms;
+  --dur-slow: 250ms;
+
+  /* ── Container ─────────────────────────────────────────────── */
+  --container-max: 1280px;
+  --container-px-mobile: 24px;
+  --container-px-desktop: 40px;
+}
